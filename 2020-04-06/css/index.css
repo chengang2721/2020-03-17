@@ -1,0 +1,25 @@
+.container{
+	padding: 0;
+}
+.product{
+	display: flex;
+	margin: 10px auto;
+	flex-wrap: wrap;
+	width: 1000px;
+}
+.product .card{
+	margin-left: 15px;
+	width: 182px;
+	margin-bottom: 10px;
+}
+.product .card .card-title{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 16px;
+	font-weight: bold;
+}
+.product .card:hover{
+	transition: .3s;
+	transform: translateY(-10px);
+}
